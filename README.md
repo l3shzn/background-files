@@ -107,8 +107,9 @@ Alguns exemplos de estilos disponíveis no repositório.
 
 </p>
 
-
-<h1 align="center">TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO:</h1>
+<p align="center">
+TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO:
+</p>
 
 
 
