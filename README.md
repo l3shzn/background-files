@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/main/Images/banner.webp" width="800">
+<img src="https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/main/Images/banner.webp](https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/refs/heads/main/Images/Preview/Pinterest.png" width="800">
 </p>
 
 <h1 align="center">Stylus Themes & Resources</h1>
@@ -31,9 +31,9 @@ a criação ou modificação de estilos para diferentes sites.
 
 
 
-──────────────────────────────────────────────
-SOBRE A EXTENSÃO STYLUS
-──────────────────────────────────────────────
+
+SOBRE A EXTENSÃO STYLUS:
+
 
 Stylus é uma extensão de navegador que permite aplicar CSS
 personalizado em praticamente qualquer site.
@@ -51,9 +51,9 @@ Alguns usos comuns:
 
 
 
-──────────────────────────────────────────────
-INSTALAÇÃO
-──────────────────────────────────────────────
+
+INSTALAÇÃO:
+
 
 Instale a extensão Stylus no navegador.
 
@@ -68,9 +68,9 @@ na barra do navegador.
 
 
 
-──────────────────────────────────────────────
-CRIANDO UM ESTILO PARA UM SITE
-──────────────────────────────────────────────
+
+CRIANDO UM ESTILO PARA UM SITE:
+
 
 1. Abra o site que deseja modificar.
 
@@ -91,25 +91,26 @@ sempre que o site for aberto.
 
 
 
-──────────────────────────────────────────────
-PREVIEW
-──────────────────────────────────────────────
+
+PREVIEW:
+
 
 Alguns exemplos de estilos disponíveis no repositório.
 
 <p align="center">
 
-<img src="Images/Preview/preview1.webp" width="700">
+<img src="Images/Preview/Pinterest.png" width="700">
 
-<img src="Images/Preview/preview2.webp" width="700">
+<img src="Images/Preview/Youtube.png" width="700">
+
+<img src="Images/Preview/Chatgpt.png" width="700">
 
 </p>
 
 
 
-──────────────────────────────────────────────
-TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO
-──────────────────────────────────────────────
+TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO:
+
 
 Abaixo está um pequeno guia visual mostrando como criar
 seu próprio estilo usando a extensão Stylus.
@@ -183,9 +184,8 @@ do site ou alterar os links das imagens ou vídeos utilizados.
 
 
 
-──────────────────────────────────────────────
-ADICIONANDO IMAGENS OU GIFS
-──────────────────────────────────────────────
+
+ADICIONANDO IMAGENS OU GIFS:
 
 Você pode usar imagens ou GIFs dentro do CSS utilizando
 links diretos de mídia.
@@ -225,9 +225,9 @@ Esse tipo de link funciona diretamente dentro do CSS.
 
 
 
-──────────────────────────────────────────────
-Screenshot_4
-──────────────────────────────────────────────
+
+Screenshot_4:
+
 
 Alguns estilos deste repositório possuem um pequeno
 menu de configuração dentro do próprio Stylus.
@@ -243,9 +243,9 @@ sinta-se livre para usar como base.
 
 
 
-──────────────────────────────────────────────
-ESTRUTURA DO REPOSITÓRIO
-──────────────────────────────────────────────
+
+ESTRUTURA DO REPOSITÓRIO:
+
 
 Stylus-Themes-Websites
 │
@@ -286,9 +286,9 @@ Estilos CSS organizados por site.
 
 
 
-──────────────────────────────────────────────
-NOTA
-──────────────────────────────────────────────
+
+NOTA:
+
 
 Este repositório existe apenas para compartilhar recursos,
 exemplos e estilos utilizados com a extensão Stylus.
