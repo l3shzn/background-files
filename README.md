@@ -254,7 +254,7 @@ Esse tipo de link funciona diretamente dentro do CSS.
 Screenshot_4:
 </p>
 
-
+![Screenshot 2](Images/Tutorial/Screenshot_4.png)
 
 Alguns estilos deste repositório possuem um pequeno
 menu de configuração dentro do próprio Stylus.
