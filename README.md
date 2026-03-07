@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/main/Images/banner.webp](https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/refs/heads/main/Images/Preview/Pinterest.png" width="800">
+<img src="https://raw.githubusercontent.com/l3shzn/Stylus-Themes-Websites/refs/heads/main/Images/Preview/Pinterest.png" width="800">
 </p>
 
 <h1 align="center">Stylus Themes & Resources</h1>
