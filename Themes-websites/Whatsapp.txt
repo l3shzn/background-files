@@ -1,0 +1,95 @@
+/* ==UserStyle==
+@name         WhatsApp
+@namespace    USO Archive
+@author       xibata do ander
+@description  banner gotico com link do banner customizavel + fonte personalizada
+@version      20250227.17.00
+@license      NONE
+==/UserStyle== */
+
+@-moz-document url-prefix("https://web.whatsapp.com/") {
+
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+    :root {
+        --conversation-panel-background: var(--vspr-bg-base) !important;
+
+        --vspr-bg-base: #101010;
+        --vspr-bg-base-t: #101010e3;
+        --vspr-bg-subtle: #1c1c1c;
+        --vspr-bg-subtle-light: #212121;
+        --vspr-bg-subtle-hover: #282828;
+        --vspr-fg-base: #ffffff;
+        --vspr-fg-subtle: #a0a0a0;
+        --vspr-accent: #51e5a2;
+        --vspr-accent-hover: #ba9270;
+        --vspr-fg-err: #ff8080;
+        --vspr-fg-suc: #99ffe4;
+        --vspr-fg-suc-subtle: #81afa3;
+        --vspr-fg-suc-subtle-hover: #82bbac;
+        --vspr-bg-subtle-transparent: #28282852;
+    }
+
+    * {
+        font-family: "Comic Sans MS", sans-serif !important;
+
+        --WDS-surface-emphasized: var(--vspr-bg-base) !important;
+        --WDS-systems-chat-surface-composer: #161616;
+        --WDS-systems-chat-background-wallpaper: var(--vspr-bg-base) !important;
+        --conversation-panel-background: var(--vspr-bg-base) !important;
+        --intro-background: var(--vspr-bg-base) !important;
+        --background-default: var(--vspr-bg-base) !important;
+        --incoming-background: var(--vspr-bg-subtle) !important;
+        --dropdown-background: var(--vspr-bg-subtle) !important;
+        --background-default-hover: var(--vspr-bg-subtle-light) !important;
+        --background-default-active: var(--vspr-bg-subtle-hover) !important;
+        --search-input-background: var(--vspr-bg-subtle) !important;
+        --unread-marker-background: var(--vspr-accent) !important;
+        --unread-timestamp: var(--vspr-accent) !important;
+        --system-message-background: var(--vspr-bg-subtle-light) !important;
+        --panel-header-background: var(--vspr-bg-base) !important;
+        --navbar-background: var(--vspr-bg-base) !important;
+        --compose-input-background: var(--vspr-bg-subtle) !important;
+        --popup-panel-background: var(--vspr-bg-subtle) !important;
+        --button-primary-background: var(--vspr-accent) !important;
+        --button-primary-background-hover: var(--vspr-accent-hover) !important;
+        --media-viewer-background: var(--vspr-bg-base-t) !important;
+    }
+
+    body.dark {
+        background-image: url("https://media.giphy.com/media/2JOyxtsUAT8mXVIzIH/giphy.gif") !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+
+    [data-asset-chat-background-dark] {
+        background-image: none !important;
+    }
+
+    .two {
+        filter: opacity(0.65) !important;
+    }
+
+    ._3GlyB {
+        display: none !important;
+    }
+
+    .app-wrapper-web ._aigs:not(._as6h) {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    .xy80clv { border-left-width: 0px; }
+    .x1a0jr7w { border-right: none; }
+    ._ak1k, ._as59 { border-left: none; }
+    .xso031l { border-bottom: none; }
+    ._ajyl { border-left: none; }
+    ._ak8l { border-top: none; }
+
+    .dark {
+        --app-background: #101010 !important;
+    }
+}
+

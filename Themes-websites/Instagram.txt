@@ -1,0 +1,76 @@
+/* ==UserStyle==
+@name         Instagram
+@namespace    xibata do ander
+@version      2.1
+@description  banner gotico com link do banner customizavel + fonte personalizada
+==/UserStyle== */
+
+@-moz-document domain("instagram.com") {
+
+/* ===== FONTE PERSONALIZADA ===== */
+:root {
+    --custom-font: "Comic Sans MS"; /* troque aqui pela fonte que quiser */
+}
+
+* {
+    font-family: var(--custom-font), Arial, sans-serif !important;
+}
+
+
+/* ===== FUNDO ===== */
+
+/* Remove fundo padrão */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+}
+
+/* Fundo */
+html::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: url("https://media.giphy.com/media/ggR3kuPK99XVbT7R7Z/giphy.gif") center center / cover no-repeat !important;
+}
+
+/* Camada escura */
+html::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .2);
+    z-index: -1;
+}
+
+/* Remove fundos brancos */
+body, #root, #app, main, div, section, header, nav {
+    background: #0000 !important;
+}
+
+/* Texto branco */
+* {
+    color: #ffffff !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+
+/* Inputs */
+input, textarea, select {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+/* Botões */
+button {
+    background: rgba(0,0,0,0.8) !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+button:hover {
+    background: #000 !important;
+}
+
+}

@@ -1,0 +1,76 @@
+/* ==UserStyle==
+@name         Deepseek
+@namespace    xibata do ander
+@version      2.1
+@description  banner gotico com link do banner customizavel + fonte personalizada
+==/UserStyle== */
+
+@-moz-document domain("chat.deepseek.com") {
+
+/* ===== FONTE PERSONALIZADA ===== */
+:root {
+    --custom-font: "Comic Sans MS"; /* troque aqui pela fonte que quiser */
+}
+
+* {
+    font-family: var(--custom-font), Arial, sans-serif !important;
+}
+
+
+/* ===== FUNDO ===== */
+
+/* Remove fundo padrão */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+}
+
+/* Fundo */
+html::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: url("https://raw.githubusercontent.com/l3shzn/background-files/refs/heads/main/Videos/Finding%20Warmth%20in%20Silence.webp") center center / cover no-repeat !important;
+}
+
+/* Camada escura */
+html::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.20);
+    z-index: -1;
+}
+
+/* Remove fundos brancos */
+body, #root, #app, main, div, section, header, nav {
+    background: transparent !important;
+}
+
+/* Texto branco */
+* {
+    color: #8b645a !important;
+    border-color: #333 !important;
+}
+
+/* Inputs */
+input, textarea, select {
+    background: rgba(0,0,0,0.8) !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+
+/* Botões */
+button {
+    background: rgba(0,0,0,0.8) !important;
+    color: #fff !important;
+    border: 1px solid #555 !important;
+}
+
+button:hover {
+    background: rgba(255,255,255,0.1) !important;
+}
+
+}

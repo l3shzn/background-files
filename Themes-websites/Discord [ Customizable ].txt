@@ -1,0 +1,203 @@
+tuto details:
+
+Custom Background: https://media.giphy.com/media/FwTsevciFKwkI13ASy/giphy.gif
+Background Overlay: #20202000
+
+/* ==UserStyle==
+@name         Customizable Discord! ✧･ﾟ☆
+@namespace    USO Archive
+@version      20250712.0
+@description  "Simple and customizable style for Discord!"
+@author       birb-naise
+@license      CC0-1.0
+@preprocessor uso
+
+@advanced	dropdown	bg			"Background" {
+	bg-default	"Sky*"			<<<EOT https://i.imgur.com/P5VYGj4.jpeg EOT;
+	bg-custom-dropdown "Custom 🖼️" <<<EOT /*[[bg-custom]]*\/ EOT;
+	bg-nene		"Nene"			<<<EOT https://i.imgur.com/hsMh7bC.png 	EOT;
+	bg-emu		"Emu"			<<<EOT https://i.imgur.com/tpkDRFf.png 	EOT;
+	bg-ai		"Ai"			<<<EOT https://i.imgur.com/KK08VK2.png 	EOT;
+	bg-chiaki	"Chiaki"		<<<EOT https://i.imgur.com/9rdTjS1.png 	EOT;
+	bg-noelle	"Noelle"		<<<EOT https://i.imgur.com/pWKivE4.jpeg EOT;
+}
+@advanced	text		bg-custom	"Custom Background"		"https://i.imgur.com/example.jpg"
+@advanced	color		bg-overlay	"Background Overlay"	#000000b3
+@advanced 	dropdown	bg-blur 	"Background Blur (laggy!)" {
+	blur-off	"OFF*"			<<<EOT EOT;
+	blur-2		"2x"			<<<EOT backdrop-filter: blur(2px); EOT;
+	blur-5		"5x"			<<<EOT backdrop-filter: blur(5px); EOT;
+	blur-10		"10x"			<<<EOT backdrop-filter: blur(10px); EOT;
+	blur-15		"15x"			<<<EOT backdrop-filter: blur(15px); EOT;
+	blur-20		"20x"			<<<EOT backdrop-filter: blur(20px); EOT;
+	blur-40		"40x"			<<<EOT backdrop-filter: blur(40px); EOT;
+}
+@advanced	color		themecolor	"Theme Color" 			#487572
+@advanced	dropdown	icon		"Discord Icon" {
+	i-default 	"Default*"		<<<EOT https://i.imgur.com/Xyd0svE.png EOT;
+	i-sakura	"Sakura" 		<<<EOT https://i.imgur.com/FcgzZ4Z.png EOT;
+	i-wham 		"Wham" 			<<<EOT https://i.imgur.com/C0r1hTL.png EOT;
+	i-fuming 	"Fuming" 		<<<EOT https://i.imgur.com/OmiWDzy.png EOT;
+	i-holo 		"Holo" 			<<<EOT https://i.imgur.com/PcnaSTQ.png EOT;
+	i-sunset 	"Sunset Ave" 	<<<EOT https://i.imgur.com/2PVWG77.png EOT;
+	i-galactic 	"Galactic Chrome" <<<EOT https://i.imgur.com/OATcKyt.png EOT;
+	i-pastel 	"Pastel" 		<<<EOT https://i.imgur.com/uNyNp0v.png EOT;
+	i-uwu 		"UwU" 			<<<EOT https://i.imgur.com/TAZX1mo.png EOT;
+	i-prismatic "Prismatic Waves" <<<EOT https://i.imgur.com/V65Erca.png EOT;
+	i-d64 		"D64" 			<<<EOT https://i.imgur.com/6zjlbQu.png EOT;
+	i-wonderhoy "wonderhoy" 	<<<EOT https://i.imgur.com/SuNQymM.png EOT;
+	i-custom 	"Custom 🖼️" 	<<<EOT /*[[icon-custom]]*\/ EOT;
+}
+@advanced 	text 		icon-custom	"Custom Icon"			"https://i.imgur.com/example.jpg"
+@advanced	dropdown	top-bar		"Hide Top Bar" {
+	hide-top-bar "No*"			<<<EOT EOT;
+ 	show-top-bar "Yes" 			<<<EOT
+		:root {
+			--custom-app-top-bar-height: 0;
+		}
+		div[class^="base_"] > div[class^="bar_"] {
+			display: none;
+		}
+		nav[aria-label="Servers sidebar"] {
+			top: 5px;
+		}
+		EOT;
+}
+@advanced 	dropdown	font 		"Font" {
+	ggsans 		"Default*"		<<<EOT gg sans EOT;
+	arialblack	"Arial Black"	<<<EOT Arial Black EOT;
+	Consolas 	"Consolas"		<<<EOT Consolas EOT;
+	candara 	"Candara" 		<<<EOT Candara EOT;
+	cambria 	"Cambria"		<<<EOT Cambria EOT;
+	rockwell 	"Rockwell" 		<<<EOT Rockwell EOT;
+	century		"Century Gothic" <<<EOT Century Gothic EOT;
+	couriernew 	"Courier New" 	<<<EOT Courier New EOT;
+	arial 		"Arial" 		<<<EOT Arial EOT;
+	comicsansms "Comic Sans MS" <<<EOT Comic Sans MS EOT;
+}
+
+
+
+==/UserStyle== */
+@-moz-document domain("discord.com") {
+	:root {
+		--surface-color: rgba(0, 0, 0, .5);
+		--popup-color: rgba(0, 0, 0, .7);
+		--theme-color: /*[[themecolor]]*/;
+		--theme-color-text: color-mix(in hsl, var(--theme-color), white 50%);
+    	--style-font: "/*[[font]]*/";
+	}
+
+	
+	/*////////////// BACKGROUND //////////////*/
+	:root {
+		background: url("/*[[bg]]*/") fixed;
+		background-size: cover;
+	}
+	body {
+		/*[[bg-blur]]*/
+		background: /*[[bg-overlay]]*/
+	}
+	
+	
+	.visual-refresh.theme-dark,
+	.visual-refresh .theme-dark,
+	.visual-refresh.theme-darker,
+	.visual-refresh .theme-darker,
+	.visual-refresh.theme-darkest,
+	.visual-refresh .theme-darkest {
+		
+		/*////////////// BACKGROUND COLORS //////////////*/
+		--background-primary: transparent;				/* Active Now sidebar (2)*/
+		--background-secondary: transparent;            /* Active Now sidebar (1) */
+		--background-tertiary: transparent;		        /* website bg (2) */
+		--bg-base-secondary: transparent;				/* members list */
+		--bg-base-tertiary: transparent;				/* servers sidebar */
+		--background-base-low: transparent;	  	  		/* user area, fullscreen settings menu right */
+		--background-base-lower: transparent;			/* chat, channel top bar, emoji/sticker sidebars */
+		--background-base-lowest: transparent;			/* website bg (1), channels sidebar, autocomplete servers */
+		--chat-background-default: transparent;			/* chat input */
+ 		--bg-overlay-app-frame: /*[[bg-overlay]]*/;       /* website bg (3) */ 
+
+		
+		/* channels & settings */
+		--background-modifier-hover: var(--surface-color);			/* channel select */
+    	--background-modifier-selected: var(--surface-color);
+		--button-secondary-background-hover: var(--surface-color);
+		
+		/* pop-ups */
+		--modal-background: var(--popup-color);
+		
+		--bg-surface-overlay: var(--popup-color);		  /* default profile card */
+		--background-surface-high: var(--popup-color);	  /* emoji picker, pinned, threads, chat embed, summaries bar, 
+															 global search, cards hover, app autocomplete dividers*/
+		--background-surface-higher: var(--popup-color);  /* context menu, thread/pinned list items */
+		--background-surface-highest: var(--popup-color); /* reaction picker, search tags */
+		--background-floating: var(--popup-color);		  /* tooltips */
+		--autocomplete-bg: var(--popup-color);
+		
+		
+		/*////////////// THEME COLOR //////////////*/
+		/* buttons */
+		--button-filled-brand-background: var(--theme-color);	/* colored buttons */
+		--button-filled-brand-background-hover: color-mix(in hsl, var(--theme-color), black 30%);
+        
+        --button-secondary-background: var(--theme-color);
+		
+        --spoiler-hidden-background: var(--theme-color);		/* spoilers */
+		--spoiler-hidden-background-hover: color-mix(in hsl, var(--theme-color), black 30%);
+		--checkbox-background-checked: var(--theme-color);		/* checkbox */
+		--checkbox-border-checked: var(--theme-color);
+		--redesign-input-control-selected: var(--theme-color);	/* radio button */
+		
+		/* misc */
+		--bg-mod-subtle: var(--theme-color);					/* context menu hover, default folder color */
+		--bg-brand: var(--theme-color);							/* bot "☑️APP" tag */
+		--status-danger: var(--theme-color);          			/* ping counter, new mentions */
+		--brand-500: var(--theme-color);						/* "x new messages since..." */
+		
+		/* text */
+		--text-link: var(--theme-color-text) !important;
+		--brand-360: var(--theme-color-text) !important;		/* links */
+		--text-brand: var(--theme-color-text) !important;		/* tabs */
+	}
+	
+	
+	
+	/*////////////// TEXT //////////////*/
+	body {
+    	--font-primary: var(--style-font), "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    	--font-display: var(--style-font), "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	
+	
+	/*////////////// DISCORD DM LOGO //////////////*/
+    div[data-list-item-id="guildsnav___home"] svg {
+		opacity: 0;
+	}
+	div[data-list-item-id="guildsnav___home"] div {
+		background-size: cover !important;
+		background-image: url("/*[[icon]]*/");
+	} 
+	
+	
+	/*////////////// SHOW/HIDE TOP BAR //////////////*/
+	/*[[top-bar]]*/
+	
+	
+	/*////////////// MISC //////////////*/
+	/* add theme color to text selection highlight*/
+	::selection {
+    	background: var(--theme-color);
+    	text-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+	}
+    /* pop-up backgrounds */
+    div[class^="topicsDropdown"],                   /* summaries */
+    div[class^="chatTarget"] {                      /* voice channel chat */
+        background: var(--popup-color) !important;
+    }
+    /* push summary divider above label */
+	div[class^="summary"] {         
+		padding-top: 1rem;
+	}
+}

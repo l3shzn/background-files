@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name         Tik Tok
+@namespace    xibata do ander
+@version      2.1
+@description  fonte personalizada
+==/UserStyle== */
+
+@-moz-document domain("tiktok.com") {
+
+/* ===== FONTE PERSONALIZADA ===== */
+:root {
+    --custom-font: "Comic Sans MS"; /* troque aqui pela fonte que quiser */
+}
+
+* {
+    font-family: var(--custom-font), Arial, sans-serif !important;
+}
+
+
+}
