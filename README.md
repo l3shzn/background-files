@@ -68,8 +68,8 @@ na barra do navegador.
 
 
 
+<h1 align="center">TUTORIAL — CRIANDO UM ESTILO PARA UM SITE::</h1>
 
-CRIANDO UM ESTILO PARA UM SITE:
 
 
 1. Abra o site que deseja modificar.
@@ -108,8 +108,8 @@ Alguns exemplos de estilos disponíveis no repositório.
 </p>
 
 
+<h1 align="center">TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO:</h1>
 
-TUTORIAL — CRIANDO SEU PRÓPRIO ESTILO:
 
 
 Abaixo está um pequeno guia visual mostrando como criar
