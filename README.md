@@ -15,12 +15,6 @@ Archive • CSS Themes • Stylus Resources
 <img src="https://img.shields.io/github/last-commit/l3shzn/Stylus-Themes-Websites">
 </p>
 
-
-╔════════════════════════════════════════════════════════════╗
-                           STYLUS
-                      knowledge archive
-╚════════════════════════════════════════════════════════════╝
-
 Este repositório existe para armazenar recursos, exemplos e pequenos
 tutoriais relacionados ao uso da extensão Stylus.
 
