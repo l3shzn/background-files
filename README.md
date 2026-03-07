@@ -31,8 +31,10 @@ a criação ou modificação de estilos para diferentes sites.
 
 
 
-
+<p align="center">
 SOBRE A EXTENSÃO STYLUS:
+</p>
+
 
 
 Stylus é uma extensão de navegador que permite aplicar CSS
@@ -68,7 +70,10 @@ na barra do navegador.
 
 
 
-<h1 align="center">TUTORIAL — CRIANDO UM ESTILO PARA UM SITE::</h1>
+<p align="center">
+TUTORIAL — CRIANDO UM ESTILO PARA UM SITE:
+</p>
+
 
 
 
@@ -91,8 +96,10 @@ sempre que o site for aberto.
 
 
 
-
+<p align="center">
 PREVIEW:
+</p>
+
 
 
 Alguns exemplos de estilos disponíveis no repositório.
@@ -120,20 +127,26 @@ As imagens utilizadas neste tutorial estão na pasta:
 
 Images/Tutorial/
 
-
+<p align="center">
 Screenshot_1
+</p>
+
 
 Clique no ícone da extensão Stylus na barra do navegador.
 
 ![Screenshot 1](Images/Tutorial/Screenshot_1.png)
 
 
-
+<p align="center">
 Screenshot_2
+</p>
+
 
 Após clicar na extensão, um pequeno menu será exibido.
-
+<p align="center">
 IMPORTANTE
+</p>
+
 
 Certifique-se de que a caixa verde esteja ativada para evitar
 qualquer erro ao aplicar o estilo.
@@ -147,8 +160,10 @@ Clique nessa opção para abrir o editor de estilos.
 ![Screenshot 2](Images/Tutorial/Screenshot_2.png)
 
 
-
+<p align="center">
 Screenshot_3
+</p>
+
 
 Agora você pode começar a criar seu próprio estilo.
 
@@ -163,8 +178,11 @@ https://google.com
 Isso garante que o estilo será aplicado apenas ao site correto.
 
 
-
+<p align="center">
 USANDO ESTILOS DESTE REPOSITÓRIO
+</p>
+
+
 
 Caso queira usar um estilo já pronto, acesse a pasta:
 
@@ -174,8 +192,10 @@ Selecione o site desejado, copie o código do estilo
 e cole no editor do Stylus.
 
 
-
+<p align="center">
 IMPORTANTE
+</p>
+
 
 Os estilos disponíveis foram criados apenas como exemplos
 ou testes de customização.
@@ -185,8 +205,10 @@ do site ou alterar os links das imagens ou vídeos utilizados.
 
 
 
-
+<p align="center">
 ADICIONANDO IMAGENS OU GIFS:
+</p>
+
 
 Você pode usar imagens ou GIFs dentro do CSS utilizando
 links diretos de mídia.
@@ -202,8 +224,10 @@ Exemplo:
 https://media.giphy.com/media/exemplo.gif
 
 
-
+<p align="center">
 IMPORTANTE
+</p>
+
 
 Alguns sites podem não aceitar determinados domínios de mídia.
 Caso isso aconteça, utilize uma imagem hospedada neste próprio
@@ -226,8 +250,10 @@ Esse tipo de link funciona diretamente dentro do CSS.
 
 
 
-
+<p align="center">
 Screenshot_4:
+</p>
+
 
 
 Alguns estilos deste repositório possuem um pequeno
@@ -244,8 +270,10 @@ sinta-se livre para usar como base.
 
 
 
-
+<p align="center">
 ESTRUTURA DO REPOSITÓRIO:
+</p>
+
 
 
 Stylus-Themes-Websites
@@ -287,8 +315,10 @@ Estilos CSS organizados por site.
 
 
 
-
+<p align="center">
 NOTA:
+</p>
+
 
 
 Este repositório existe apenas para compartilhar recursos,
